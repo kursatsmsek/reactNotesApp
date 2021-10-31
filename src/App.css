@@ -1,0 +1,82 @@
+.App {
+    align-items: center;
+}
+.Header {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.SearchInput {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.AddNote {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.AddSection {
+    width: 100%;
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+}
+.Colors {
+    display: flex;
+}
+.Colors > button {
+    margin: 5px;
+}
+.NoteSections {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.blue-notes {
+    background-color: cyan;
+}
+.green-notes {
+    background-color: lime;
+}
+.red-notes {
+    background-color: tomato;
+}
+.Footer {
+    display: flex;
+    justify-content: center;
+}
+.note-box {
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+.blue-notes, .green-notes, .red-notes {
+    border-radius: 5px;
+    width: 32%;
+    justify-content: center;
+    align-items: center;
+    display: block;
+}
+.blue-notes, .green-notes, .red-notes > div {
+    font-family: Comic Sans MS;
+}
+.hr {
+    border-top: 1px dashed rgb(255, 255, 255);
+}
+.TextAreaDiv {
+    display: flex;
+    justify-content: center;
+}
+.AddFooter {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+}
+.AddFooterArea {
+    display: flex;
+    justify-content: center;
+}
